@@ -1,0 +1,26 @@
+
+  .imageBanner {
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-image: url("../Assets/images/IMG.png");
+    background-position: center;
+    zoom:120%;
+    width:87%;
+    height:223px;
+
+  }
+  
+  h2 {
+    position:absolute;
+    color:white;
+    font-family: "Montserrat";
+    font-weight:500;
+    font-size:48px;
+  }
+  
+

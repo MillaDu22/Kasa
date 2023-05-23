@@ -1,0 +1,13 @@
+h1 {
+  width:50%;
+  position:absolute;
+  top :40px;
+  left: 10%;
+  color: #FF6060;
+  font-weight: 500px;
+  font-size: 60px;
+  font-family: 'Monserrat';
+  line-height: 34.22px;
+  text-transform: uppercase;
+}
+

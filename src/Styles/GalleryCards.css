@@ -1,0 +1,31 @@
+.backCards {
+    position: relative;
+    top:128px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:56px 60px 56px 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    height: 800px;
+    background-color:#E5E5E5;
+    border-radius:25px;
+}
+.coverCard {
+    display:flex;
+    flex-direction: column;
+    justify-content:end;
+    padding-left:20px;
+    Width:25%;
+    height:340px;
+    background:linear-gradient(180deg, rgba(252, 0, 0, 0.603)100%, rgba(28, 28, 28, 0.948)90%);
+}
+.titleCards {
+    font-family:'Monserrat';
+    font-weight:500;
+    font-size:18px;
+    width:30%;
+    color:white;
+}
