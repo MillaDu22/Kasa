@@ -1,7 +1,7 @@
 import '../../Styles/Header.css'
 function Header() {
     return (
-        <h1>K🏠sa</h1>
+        <div class= "logoTitle"></div>
     )
 }
 export default Header

@@ -1,8 +1,8 @@
+
 import '../../../Styles/Home.css'
 function Home() {
     return (
-        <div>
-        </div>
+        <div></div>
     )
 }
 
