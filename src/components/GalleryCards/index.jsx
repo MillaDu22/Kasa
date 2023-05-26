@@ -1,24 +1,24 @@
 import '../../Styles/GalleryCards.css';
 function GalleryCards() {
     return (
-        <div class="backCards">
-            <span class="coverCard">
-                <h3 class ="titleCards">Titre de la location</h3>
+        <div className="backCards">
+            <span className="coverCard">
+                <h3 className ="titleCards">Titre de la location</h3>
             </span>
-            <span class="coverCard">
-                <h3 class ="titleCards">Titre de la location</h3>
+            <span className="coverCard">
+                <h3 className ="titleCards">Titre de la location</h3>
             </span>
-            <span class="coverCard">
-                <h3 class ="titleCards">Titre de la location</h3>
+            <span className="coverCard">
+                <h3 className ="titleCards">Titre de la location</h3>
             </span>
-            <span class="coverCard">
-                <h3 class ="titleCards">Titre de la location</h3>
+            <span className="coverCard">
+                <h3 className ="titleCards">Titre de la location</h3>
             </span>
-            <span class="coverCard">
-                <h3 class ="titleCards">Titre de la location</h3>
+            <span className="coverCard">
+                <h3 className ="titleCards">Titre de la location</h3>
             </span>
-            <span class="coverCard">
-                <h3 class ="titleCards">Titre de la location</h3>
+            <span className="coverCard">
+                <h3 className ="titleCards">Titre de la location</h3>
             </span>
         </div>
     )

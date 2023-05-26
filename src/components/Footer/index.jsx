@@ -2,9 +2,9 @@ import '../../Styles/Footer.css';
 
 function Footer() {
     return (
-        <div class="backFooter">
-            <div class="logoFooter"></div>
-            <p class= "copyright">© 2020 Kasa. All rights reserved</p>
+        <div className="backFooter">
+            <div className="logoFooter"></div>
+            <p className= "copyright">© 2020 Kasa. All rights reserved</p>
         </div>
     )
 }

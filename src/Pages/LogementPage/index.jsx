@@ -1,4 +1,4 @@
-import '../../../Styles/LogementPage.css';
+import '../../Styles/LogementPage.css';
 
 function LogementPage() {
     return (
