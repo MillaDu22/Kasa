@@ -10,6 +10,7 @@ import './Styles/NavHeader.css';
 import './Styles/Banner.css';
 import './Styles/GalleryCards.css';
 import './Styles/Footer.css';
+import './Styles/BannerAPropos.css';
 import Home from './Pages/Home/index.jsx';
 import AProposPage from './Pages/AProposPage/index.jsx'
 import LogementPage from './Pages/LogementPage/index.jsx';
@@ -21,25 +22,26 @@ import GalleryCards from './components/GalleryCards/index.jsx';
 import Footer from './components/Footer/index.jsx';
 import reportWebVitals from './reportWebVitals';
 
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <Router>
-    <Home />
-    <Header />
-    <NavHeader />
-    <Banner />
-    <GalleryCards />
-    <Footer />
-    <Routes>
-    <Route path="/" element={<Home />} />
-                <Route path="/AProposPage" element={<AProposPage />} />
-                <Route path="/LogementPage" element={<LogementPage />} />
-                <Route path="*" element={<Error />} />
-    </Routes>
-
-    </Router>
+                <Home />
+                <Header />
+                <NavHeader />
+                <Banner />
+                <GalleryCards />
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/AProposPage" element={<AProposPage />} />
+                        <Route path="/LogementPage" element={<LogementPage />} />
+                        <Route path="*" element={<Error />} />       
+                    </Routes>
+                    <Footer />
+        </Router>
     </React.StrictMode>
-
 );
 reportWebVitals();

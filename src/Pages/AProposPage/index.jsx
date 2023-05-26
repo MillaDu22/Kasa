@@ -1,11 +1,37 @@
-
+import React, { Fragment} from 'react';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+import Home from '../Home/index.jsx'
+import Header from '../../components/Header/index.jsx';
+import NavHeader from '../../components/NavHeader/index.jsx';
+import BannerAPropos from '../../components/BannerAPropos/index.jsx';
+import Footer from '../../components/Footer/index.jsx';
 import '../../Styles/AProposPage.css';
-function AProposPage() {
+
+export default function AProposPage() {
     return (
-        <div>
-            <h1 className ="AProposPage">A Propos Page</h1>
-        </div>
+        <body>
+        <Router>
+            <Route path="/" component={<Home />} />
+            <Route path="/AProposPage" component={<AProposPage />} />
+        </Router>
+        </body>
     )
 }
+ // eslint-disable-next-line no-func-assign
+AProposPage =  () => (
+        <Fragment>
+            <div className="AProposPage">
+                <Header />
+                <NavHeader />
+                <BannerAPropos />
+                <Footer />
+            </div>
+        </Fragment>
+)
 
-export default AProposPage
+
+
+
+
+
+

@@ -1,7 +1,5 @@
-i
 
-import DefaultPicture from '../../../Images/IMG.png'
-const locationsList = [
+let Fiches = [
 	{
 		"id": "c67ab8a7",
 		"title": "Appartement cosy",
@@ -619,5 +617,21 @@ const locationsList = [
 			"Rivoli"
 		]
 	}
-]
+];
 
+function Logements() {
+    return (
+    <div>
+        <h1>Logements</h1>
+        {Fiches.map((fiche, index) => (
+        <Fiches
+            key={`${fiche.id}-${index}`}
+            cover={fiche.cover}
+            title={fiche.name}
+        />
+        ))}
+    </div>
+    )
+}
+
+export default Logements

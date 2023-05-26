@@ -10,12 +10,14 @@
     background: black;
 }
 .logoFooter {
-    width:10%;
+    width:8%;
     height:40px;
     background-image: url("../Assets/images/LOGO-FOOTER.png");
-    background-repeat: no-repeat;
+    background-repeat:round;
+    background-size: auto;
     position:relative;
     top:15px;
+
 
 }
 .copyright {
