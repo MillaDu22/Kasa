@@ -2,9 +2,9 @@
 .logoTitle {
   width:12%;
   height:62px;
-  background-image: url("../Assets/images/LOGO-HEADER.png");
+  background-image: url("../../Assets/images/LOGO-HEADER.png");
   background-repeat:round;
-  position:absolute;
+  position:relative;
   left: 7%;
   top:40px;
 }

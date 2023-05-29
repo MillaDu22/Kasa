@@ -3,11 +3,12 @@
     position: relative;
     margin-left:auto;
     margin-right:auto;
+    margin-top: 63px;
     display:flex;
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-    background-image: url("../Assets/images/cestpaslaplayadelacostadelsol.png");
+    background-image: url("../../Assets/images/cestpaslaplayadelacostadelsol.png");
     background-position: center;
     zoom:120%;
     width:87%;

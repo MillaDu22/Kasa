@@ -1,5 +1,5 @@
 
-import '../../Styles/Card.css'
+import './Card.css'
 
 function Card({title, cover }) {
     return (

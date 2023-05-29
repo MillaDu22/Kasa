@@ -1,4 +1,4 @@
-import '../../Styles/GalleryCards.css';
+import './GalleryCards.css';
 /*import Card from '../card/index.jsx';*/
 function GalleryCards() {
     return (

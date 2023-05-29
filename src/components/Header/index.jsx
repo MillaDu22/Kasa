@@ -1,4 +1,4 @@
-import '../../Styles/Header.css'
+import './Header.css'
 function Header() {
     return (
         <div className="logoTitle" ></div>

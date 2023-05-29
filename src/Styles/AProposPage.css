@@ -1,8 +1,0 @@
-.AProposPage {
-    position:relative;
-    width:100%;
-    top: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}

@@ -1,4 +1,4 @@
-import '../../Styles/BannerAPropos.css';
+import './BannerAPropos.css';
 
 function BannerAPropos() {
     return (
