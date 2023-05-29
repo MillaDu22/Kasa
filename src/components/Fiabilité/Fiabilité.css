@@ -1,0 +1,28 @@
+.fiabiliteSelect {
+    color:white;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 39.75px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:75%;
+}
+.fiabiliteOption1{
+    background-color: #FF6060;
+    color:white;
+    width:100%;
+    height:47px;
+}
+.pFiabiliteOption1 {
+    position: relative;
+    margin-left: 20px;
+}
+.fiabiliteOption2{
+    background-color: #F7F7F7;
+    color:#FF6060;
+    width:100%;
+    height:146px;
+}
+
