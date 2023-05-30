@@ -17,7 +17,7 @@
 .coverCard {
     display:flex;
     flex-direction: column;
-    justify-content:end;
+    justify-content:flex-end;
     padding-left:20px;
     Width:25%;
     height:340px;

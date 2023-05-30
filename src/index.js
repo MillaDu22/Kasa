@@ -27,7 +27,7 @@ root.render(
             <Route exact path="/" element={<Home />} />
                 <Route path="/AProposPage" element={<AProposPage />} />
                 <Route path="/LogementPage" element={<LogementPage />} />
-                <Route path="*" element={<Error />} /> 
+                <Route path="/*" element={<Error />} /> 
         </Routes>
     </BrowserRouter>
 );
