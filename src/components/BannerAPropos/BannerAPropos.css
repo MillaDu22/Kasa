@@ -1,17 +1,16 @@
 
-.imageBannerAPropos {
+.bannerAPropos {
     position: relative;
     margin-left:auto;
     margin-right:auto;
     margin-top:63px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 25px;
-    background-image: url("../../Assets/images/kalen-emsley-Bkci_8qcdvQ-unsplash\ 2.png");
-    background-position: center;
-    zoom:120%;
     width:87%;
     height:223px;
-
+}
+.imgBannerAPropos {
+    width:100%;
+    border-radius: 25px;
+    height:223px;
+    object-fit: cover;
 }

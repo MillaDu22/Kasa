@@ -1,9 +1,6 @@
-div {
-    height:171px;
+.homePage {
     width:100%;
-}
-h1 {
-    height:171px;
-    color:red;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     position:relative;
-    margin-top: 70px;
+    margin-top:50px;
     width:100%;
     height:212px;
     background: black;
@@ -12,13 +12,12 @@
 .logoFooter {
     width:8%;
     height:40px;
-    background-image: url("../../Assets/images/LOGO-FOOTER.png");
-    background-repeat:round;
-    background-size: auto;
     position:relative;
     top:15px;
-
-
+}
+.imgLogoFooter {
+    width:100%;
+    object-fit: cover;
 }
 .copyright {
     color: white;
