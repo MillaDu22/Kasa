@@ -1,1 +1,206 @@
-/*# sourceMappingURL=InfoLogement.css.map */
+.sectionInfo {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.rowBoxes1 {
+  width: 90%;
+  position: relative;
+  top: 30px;
+  left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  width: 100%;
+  position: relative;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 51px;
+  color: #FF6060;
+}
+
+.location {
+  Width: 100%;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FF6060;
+}
+
+.containerMotsCles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  position: relative;
+}
+
+.motCle {
+  background: #FF6060;
+  border-radius: 10px;
+  color: white;
+  width: 33%;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.rightBox {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heberger {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+
+.nameHeberger {
+  width: 40%;
+  text-align: right;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #FF6060;
+  position: relative;
+  right: 2%;
+}
+
+.photoHeberger {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.photoProfil {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.containerNotation {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 60px;
+}
+
+.rowBoxes2 {
+  width: 90%;
+  position: relative;
+  margin-top: 10%;
+  left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.descriptionSelect {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptionOption1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-left: 20px;
+  width: 92.5%;
+  background: #FF6060;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.6px;
+  border-radius: 10px;
+}
+
+.descriptionOption2 {
+  background: #F7F7F7;
+  position: relative;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 92.5%;
+  height: 100%;
+  color: #FF6060;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.6px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.equipementSelect {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+}
+
+.equipementOption1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-left: 20px;
+  width: 92.5%;
+  background: #FF6060;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.6px;
+  border-radius: 10px;
+}
+
+.chevronCollapse {
+  position: relative;
+  right: 5%;
+  width: 4%;
+}
+
+.equipementOption2 {
+  background: #F7F7F7;
+  width: 92.5%;
+  height: 100%;
+  position: relative;
+  padding-left: 20px;
+  color: #FF6060;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.6px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.ulList {
+  width: 100%;
+  list-style: none;
+  position: relative;
+  right: 7.5%;
+}/*# sourceMappingURL=InfoLogement.css.map */
