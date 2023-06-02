@@ -1,8 +1,10 @@
 .sectionCollapses {
-    width:75%;
+    width:80%;
     position: relative;
     margin-top: 19px;
-    left:12.5%;
+    left:10%;
+    right:10%;
+    top:22px;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -11,10 +13,14 @@
 .wrap{
     display:block;
     width:100%;
+    position: relative;
+    margin-bottom:44px;
 }
 .toggle {
+    display:flex;
+    justify-content: center;
     width:100%;
-    visibility:hidden;
+    display:none;
 }
 .labelToggle {
     display: flex;
@@ -28,6 +34,7 @@
 }
 .labelTitle {
     width:96%;
+    height: 47px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -71,11 +78,46 @@
 .chevron{
     position:relative;
     right: 10px;
-    width: 16px;
-    height:10px; 
+    width: 24px;
+    height:13.71px; 
 }
 .chevron:active {
     transform: rotate(180deg);
+    height:13.71px;
+    width:24px;
+}
+@media screen and (max-width:768px) {
+    .sectionCollapses {
+        width:96%;
+        left:2%;
+        right:2%;
+    }
+    .labelToggle {
+        width:100%;
+    }
+    .labelTitle {
+        width:90%;
+        font-size: 13px;
+        line-height:18.5;
+    }
+    .collapseText {
+        font-size:12px;
+        line-height:17.1px;
+    }
+    .labelTitle {
+        margin-left: 2%;
+    }
+    .chevron{
+        position:relative;
+        right: 10px;
+        width: 16px;
+        height:9.14px; 
+    }
+    .chevron:active {
+        transform: rotate(180deg);
+        height:7.9px;
+        width:13.81px;
+    }
 }
 
 
