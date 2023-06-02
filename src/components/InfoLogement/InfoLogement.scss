@@ -192,10 +192,12 @@
 @media screen and (max-width:768px) {
     .sectionInfo {
         display:contents;
+        width:100%;
     }
     .rowBoxes1 {
-        width:100%;
-        left:0%;
+        width:96%;
+        left:2%;
+        right:2%;
         top:0%;
         flex-direction: column;
     }
@@ -253,6 +255,7 @@
     }
     .heberger {
         top:0px;
+        right:2%
     }
     .nameHeberger {
         font-size:12px;
