@@ -29,7 +29,7 @@ function InfoLogement () {
                 <div className="rowBoxes2">
                     <div className="wrapInfo">
                         <input id="collapse5" className="toggleInfo" type="checkbox"/>
-                        <label for = "collapse5" className="labelToggleInfo">
+                        <label htmlFor = "collapse5" className="labelToggleInfo">
                             <p className="labelTitleInfo">
                                 Description
                                 <img src = {Chevron} alt="chevronCollapse" className="chevronInfo" />
@@ -47,7 +47,7 @@ function InfoLogement () {
                     </div>
                     <div className="wrapInfo">
                         <input id="collapse6" className="toggleInfo" type="checkbox" />
-                        <label for = "collapse6" className="labelToggleInfo">
+                        <label htmlFor = "collapse6" className="labelToggleInfo">
                             <p className="labelTitleInfo">
                                 Equipements
                                 <img src = {Chevron} alt="chevronCollapse" className="chevronInfo" />
@@ -55,7 +55,7 @@ function InfoLogement () {
                         </label>
                         <div className="textInfo">
                             <div className="textInnerInfo">
-                                <p className="pTextInfo">
+                                <div className="pTextInfo">
                                     <nav className="listEquipement">
                                         <ul className="ulList">
                                             <li className= "liList">Equipements de base</li>
@@ -65,7 +65,7 @@ function InfoLogement () {
                                             <li className= "liList">WIFI</li>
                                         </ul>
                                     </nav>
-                                </p>
+                                </div>
                         </div>
                     </div>
                 </div>

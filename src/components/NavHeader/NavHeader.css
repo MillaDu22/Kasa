@@ -1,10 +1,10 @@
 .navHead {
     position: absolute;
     padding-top:4%;
-    left:63%;
+    left:73%;
     display:flex;
     flex-direction: row;
-    width: 29%;
+    width: 23%;
 }
 
 .linkAccueil, .linkAPropos {
@@ -19,4 +19,16 @@
 }
 .linkAccueil:hover, .linkAPropos:hover {
     text-decoration: underline;
+}
+@media screen and (max-width:768px) {
+    .navHead {
+        width:45%;
+        top:3%;
+        left:48%;
+    }
+
+.linkAccueil, .linkAPropos {
+    font-size:12px;
+    line-height:17.11px;
+}
 }

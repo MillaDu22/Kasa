@@ -6,7 +6,7 @@ function Collapses() {
         <section className="sectionCollapses">
             <div className="wrap">
                 <input id="collapse1" className="toggle" type="checkbox"/>
-                <label for = "collapse1" className="labelToggle">
+                <label htmlFor = "collapse1" className="labelToggle">
                     <p className="labelTitle">
                         Description
                         <img src = {Chevron} alt="chevronCollapse" className="chevron" />
@@ -25,7 +25,7 @@ function Collapses() {
             </div>
             <div className="wrap">
                 <input id="collapse2" className="toggle" type="checkbox" />
-                <label for = "collapse2" className="labelToggle">
+                <label htmlFor = "collapse2" className="labelToggle">
                     <p className="labelTitle">
                         Respect
                         <img src = {Chevron} alt="chevronCollapse" className="chevron" />
@@ -43,7 +43,7 @@ function Collapses() {
             </div>
             <div className="wrap">
                 <input id="collapse3" className="toggle" type="checkbox" />
-                <label for = "collapse3" className="labelToggle">
+                <label htmlFor = "collapse3" className="labelToggle">
                     <p className="labelTitle">
                         Service
                         <img src = {Chevron} alt="chevronCollapse" className="chevron" />
@@ -61,7 +61,7 @@ function Collapses() {
             </div>
             <div className="wrap">
                 <input id="collapse4" className="toggle" type="checkbox" />
-                <label for = "collapse4" className="labelToggle">
+                <label htmlFor = "collapse4" className="labelToggle">
                     <p className="labelTitle">
                         Sécurité
                         <img src = {Chevron} alt="chevronCollapse" className="chevron" />
