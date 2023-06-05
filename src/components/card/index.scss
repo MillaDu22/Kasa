@@ -1,0 +1,46 @@
+.linkCard {
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    width:30%;
+    height:340px;
+    position:relative;
+    margin-left:2%;
+    margin-right: 1%;
+    text-decoration: none;
+}
+.coverCard {
+    Width:100%;
+    margin-bottom:20px;
+    object-fit: cover;
+}
+.titleCard {
+    position:absolute;
+    padding-left:20px;
+    padding-bottom:20px;
+    font-family:'Monserrat';
+    font-weight:500;
+    font-size:18px;
+    width:55%;
+    color:white;
+}
+@media screen and (max-width:768px) {
+    .linkCard {
+        width:99.5%;
+        height: 255px;
+        border-radius: 10px;
+        position: relative;
+        margin-bottom:10%;
+        margin-left: 0.5%;
+    }
+    .coverCard {
+        width:100%;
+        height: 255px;
+        border-radius: 10px;
+        position: relative;
+        margin-bottom:5px;
+    }
+    .titleCard {
+        width:45%;
+    }
+}
