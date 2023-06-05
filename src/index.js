@@ -26,7 +26,7 @@ root.render(
         <Routes>
             <Route exact path="/" element={<Home />} />
                 <Route path="/AProposPage" element={<AProposPage />} />
-                <Route path="/LogementPage" element={<LogementPage />} />
+                <Route path="/LogementPage/:id" element={<LogementPage />} />
                 <Route path="/*" element={<Error />} /> 
         </Routes>
     </BrowserRouter>

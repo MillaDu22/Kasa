@@ -23,6 +23,7 @@
     Width:30%;
     height:340px;
     margin-bottom:20px;
+    border-radius: 10px;
     background:linear-gradient(180deg, rgba(252, 0, 0, 0.603)100%, rgba(28, 28, 28, 0.948)90%);
 }
 .titleCard {

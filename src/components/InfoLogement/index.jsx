@@ -1,9 +1,16 @@
+
 import '../../components/InfoLogement/InfoLogement.scss';
+//import BannerLogement from '../BannerLogement/index.jsx';
+//import {useEffect, useState} from 'react';
+//import {useParams} from "react-router-dom";
+//import datasLogements from '../../datasLogements.json';
+//import starLight from '../../Assets/images/starLight.png';
+//import startFull from '../../Assets/images/starFull.png';
 import Rate from '../../Assets/images/Rate.png';
 import Chevron from '../../Assets/images/chevron.png'
 
 function InfoLogement () {
-    return (
+return (
         <section className="sectionInfo">
             <div className="rowBoxes1">
                 <div className="leftBox">
@@ -73,4 +80,4 @@ function InfoLogement () {
         </section>
     )
 }
-export default InfoLogement
+export default InfoLogement;
