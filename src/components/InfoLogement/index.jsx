@@ -1,16 +1,22 @@
 
 import '../../components/InfoLogement/InfoLogement.scss';
-//import BannerLogement from '../BannerLogement/index.jsx';
+import BannerLogement from '../BannerLogement/index.jsx';
 //import {useEffect, useState} from 'react';
-//import {useParams} from "react-router-dom";
-//import datasLogements from '../../datasLogements.json';
+import {useParams} from "react-router-dom";
+import datasLogements from '../../datasLogements.json';
 //import starLight from '../../Assets/images/starLight.png';
 //import startFull from '../../Assets/images/starFull.png';
 import Rate from '../../Assets/images/Rate.png';
 import Chevron from '../../Assets/images/chevron.png'
 
 function InfoLogement () {
+    const id = useParams();
+    const InfoLogement = datasLogements.find (dataslogement => dataslogement.id=== id.id)
 return (
+    <>
+    {
+    <div className= 'infoLogement'>
+    <BannerLogement photos = {datasLogements?.photos} />
         <section className="sectionInfo">
             <div className="rowBoxes1">
                 <div className="leftBox">
@@ -78,6 +84,9 @@ return (
                 </div>
             </div>
         </section>
-    )
+        </div>
+}
+</>
+) 
 }
 export default InfoLogement;

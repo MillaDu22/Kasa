@@ -11,7 +11,6 @@ function LogementPage() {
         <div className= "logementPage">
         <Header />
         <NavHeader />
-        <BannerLogement />
         <InfoLogement />
         <Footer />
         </div>

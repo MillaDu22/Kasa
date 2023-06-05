@@ -2,12 +2,13 @@ import './BannerLogement.css';
 import Left from '../../Assets/images/Left.png'
 import Right from '../../Assets/images/Right.png'
 import ImageTest from '../../Assets/images/Background-test-slider.png';
+//import datasLogements from '../../datasLogements.json';
 //import { useState } from 'react';
 
 /*function BannerLogement ({photos}) {
     let [imageDisplay,imageChange] = useState(0);
-    let imageNumber = photos.length;
-    console.log( photos)
+    let imageNumber =photos?? [].length;
+    console.log(imageNumber)
     const nextImage = () => {
         if (imageDisplay === imageNumber -1) {
             imageChange(imageNumber=0);
@@ -36,7 +37,7 @@ import ImageTest from '../../Assets/images/Background-test-slider.png';
                 }
                 </div>
                 {
-                    photos.map ((photos, index) => {
+                    datasLogements.photos??[].map ((photos, index) => {
                         return (
                             <img key = {index} className= {index === imageDisplay ? 'imgSlider active': 'imgSlider'}src= {photos} alt="imgSlider" />
                         )
