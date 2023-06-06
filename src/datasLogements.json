@@ -13,20 +13,19 @@
 		],
 		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentez chez vous dans notre appartement.",
 		"héberger": {
-			"nom": "Nathalie Jean",
-			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-		},
+			"nom": "Nathalie Jean", 
+			"image": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"},
 		"note": "5",
 		"location": "Ile de France - Paris 17e",
-		"équipements": [
-			"Équipements de base",
-			"Micro-Ondes",
-			"Douche italienne",
+		"equipements": [
+			"Équipements de base", 
+			"Micro-Ondes", 
+			"Douche italienne", 
 			"Frigo",
 			"WIFI"
 		],
-		"Mots clés": [
-			"Batignolle",
+		"Tags": [
+			"Batignolles", 
 			"Montmartre"
 		]
 	},
@@ -49,19 +48,19 @@
 		},
 		"note": "4",
 		"location": "Ile de France - Paris 10e",
-		"équipements": [
-			"Parking",
-			"Sèche Cheveux",
-			"Machine à laver",
-			"Wifi",
-			"Cuisine équipée",
+		"equipements": [
+			"Parking", 
+			"Sèche Cheveux", 
+			"Machine à laver", 
+			"Wifi", 
+			"Cuisine équipée", 
 			"Télévision"
-		],
-		"Mots clés": [
-			"Canal Saint-Martin",
-			"République",
+			],
+		"Tags": [
+			"Canal-Saint-Martin",
+			"République", 
 			"Appartement"
-		]
+			]
 	},
 	{
 		"id": "46d188c5",
@@ -80,17 +79,17 @@
 		},
 		"note": "3",
 		"location": "Ile de France - Paris 20e",
-		"équipements": [
-			"Wifi",
-			"Cuisine équipée",
-			"Télévision",
+		"equipements": [
+			"Wifi", 
+			"Cuisine équipée", 
+			"Télévision", 
 			"Sèche Cheveux"
-		],
-		"Mots clés": [
-			"Buttes Chaumont",
-			"Laumiere",
+			],
+		"Tags": [
+			"Buttes-Chaumont", 
+			"Laumiere", 
 			"Studio"
-		]
+			]
 	},
 	{
 		"id": "7af00cd6",
@@ -109,19 +108,19 @@
 		},
 		"note": "3",
 		"location": "Ile de France - Paris 11e",
-		"équipements": [
-			"Micro-Ondes",
-			"Wifi",
-			"Chambre Séparée",
-			"Climatisation",
+		"equipements": [
+			"Micro-Ondes", 
+			"Wifi", 
+			"Chambre Séparée", 
+			"Climatisation", 
 			"Télévision"
-		],
-		"Mots clés": [
-			"Parmentier",
-			"Marais",
-			"Parc",
-			"Vie nocturne"
-		]
+			],
+		"Tags": [
+			"Parmentier", 
+			"Marais", 
+			"Parc", 
+			"Vie-nocturne"
+			]
 	},
 	{
 		"id": "0979876d",
@@ -142,17 +141,17 @@
 		},
 		"note": "5",
 		"location": "Ile de France - Paris 10e",
-		"équipements": [
-			"Frigo Américain",
-			"Sèche Cheveux",
-			"Wifi",
-			"Chambre Séparée",
+		"equipements": [
+			"Frigo Américain", 
+			"Sèche Cheveux", 
+			"Wifi", 
+			"Chambre Séparée", 
 			"Parking"
-		],
-		"Mots clés": [
-			"Goncourt",
-			"Proches commerces"
-		]
+			],
+		"Tags": [
+			"Goncourt", 
+			"Proches-commerces"
+			]
 	},
 	{
 		"id": "f72a452f",
@@ -172,15 +171,15 @@
 		},
 		"note": "5",
 		"location": "Ile de France - Paris 18e",
-		"équipements": [
-			"Chambre Séparée",
+		"equipements": [
+			"Chambre-Séparée", 
 			"Parking"
-		],
-		"Mots clés": [
-			"Montmartre",
-			"Culture",
+			],
+		"Tags": [
+			"Montmartre", 
+			"Culture", 
 			"Charme"
-		]
+			]
 	},
 	{
 		"id": "b4c67936",
@@ -199,19 +198,19 @@
 		},
 		"note": "3",
 		"location": "Ile de France - Paris 18e",
-		"équipements": [
-			"Salle de bains",
-			"Frigo",
-			"Wifi",
-			"Sèche Cheveux",
-			"Bureau",
+		"equipements": [
+			"Salle de bains", 
+			"Frigo", 
+			"Wifi", 
+			"Sèche Cheveux", 
+			"Bureau", 
 			"Parking"
-		],
-		"Mots clés": [
-			"Les transports",
-			"Bon marché",
-			"18eme"
-		]
+			],
+		"Tags": [
+			"Transports", 
+			"Bon-marché", 
+			"Arrondissement-18"
+			]
 	},
 	{
 		"id": "bc6f7112",
@@ -232,20 +231,20 @@
 		},
 		"note": "5",
 		"location": "Ile de France - Paris 6e",
-		"équipements": [
-			"Wifi",
-			"Sèche Cheveux",
-			"Machine à laver",
-			"Parking",
-			"Lit King Size",
+		"equipements": [
+			"Wifi", 
+			"Sèche Cheveux", 
+			"Machine à laver", 
+			"Parking", 
+			"Lit King Size", 
 			"Ascenseur"
-		],
-		"Mots clés": [
-			"Luxe",
-			"Tour Eiffel",
-			"T3",
-			"6eme"
-		]
+			],
+		"Tags": [
+			"Luxe", 
+			"Tour-Eiffel", 
+			"T3", 
+			"Arrondissement-6"
+			]
 	},
 	{
 		"id": "cb2f9222",
@@ -265,18 +264,18 @@
 		},
 		"note": "4",
 		"location": "Ile de France - Paris 14e",
-		"équipements": [
-			"Climatisation",
-			"Machine à laver",
-			"Sèche Cheveux",
-			"Wifi",
+		"equipements": [
+			"Climatisation", 
+			"Machine à laver", 
+			"Sèche Cheveux", 
+			"Wifi", 
 			"Parking"
-		],
-		"Mots clés": [
+			],
+		"Tags": [
 			"Montparnasse",
-			"Commerces",
+			"Commerces", 
 			"Famille"
-		]
+			]
 	},
 	{
 		"id": "d60ca600",
@@ -295,7 +294,7 @@
 		},
 		"note": "3",
 		"location": "Ile de France - Paris 11e",
-		"équipements": [
+		"equipements": [
 			"Vue Parc",
 			"Chauffages",
 			"Sèche linge",
@@ -303,11 +302,11 @@
 			"Wifi",
 			"Ascenseur"
 		],
-		"Mots clés": [
-			"Père Lachaise",
-			"11e",
-			"Métro 3",
-			"Métro 2"
+		"Tags": [
+			"Père-Lachaise",
+			"Arrondissement-11",
+			"Métro-3",
+			"Métro-2"
 		]
 	},
 	{
@@ -327,13 +326,13 @@
 		},
 		"note": "4",
 		"location": "Ile de France - Paris 11e",
-		"équipements": [
+		"equipements": [
 			"Clic-clac",
 			"Quatre",
 			"Sèche Cheveux",
 			"Wifi"
 		],
-		"Mots clés": [
+		"Tags": [
 			"Marais",
 			"Studio",
 			"Parc"
@@ -356,7 +355,7 @@
 		},
 		"note": "3",
 		"location": "Ile de France - Paris 3e",
-		"équipements": [
+		"equipements": [
 			"Rangements",
 			"Allumé",
 			"Sèche Cheveux",
@@ -364,11 +363,11 @@
 			"LA TÉLÉ",
 			"Bouiloire"
 		],
-		"Mots clés": [
+		"Tags": [
 			"Marais",
 			"République",
 			"Studio",
-			" Proche Métros ",
+			"Proche-Métros",
 			"Commerces"
 		]
 	},
@@ -390,17 +389,17 @@
 		},
 		"note": "5",
 		"location": "Ile de France - Écouen",
-		"équipements": [
+		"equipements": [
 			"SDB",
 			"Cuisine équipée",
 			"Toilettes sèches",
 			"Frigo",
 			"Bouiloire"
 		],
-		"Mots clés": [
+		"Tags": [
 			"Forêt",
 			"Nature",
-			"Musée d'Ecouen"
+			"Musée-Ecouen"
 		]
 	},
 	{
@@ -421,7 +420,7 @@
 		},
 		"note": "4",
 		"location": "Ile de France - Arnouville",
-		"équipements": [
+		"equipements": [
 			"SDB",
 			"Cuisine équipée",
 			"Frigo",
@@ -431,10 +430,10 @@
 			"Cintrés",
 			"Équipements de base"
 		],
-		"Mots clés": [
+		"Tags": [
 			"Forêt",
 			"Nature",
-			"Grande maison"
+			"Grande-maison"
 		]
 	},
 	{
@@ -455,7 +454,7 @@
 		},
 		"note": "3",
 		"location": "Ile de France - Arnouville",
-		"équipements": [
+		"equipements": [
 			"Bouilloire",
 			"SDB",
 			"Cuisine équipée",
@@ -467,7 +466,7 @@
 			"Micro-Ondes",
 			"Parking"
 		],
-		"Mots clés": [
+		"Tags": [
 			"Nature",
 			"Groupe",
 			"Maisons"
@@ -491,7 +490,7 @@
 		},
 		"note": "3",
 		"lieu": "Ile de France - La Défense",
-		"équipements": [
+		"equipements": [
 			"Baie vitrée",
 			"Télévision",
 			"Quatre",
@@ -500,8 +499,8 @@
 			"Micro-Ondes",
 			"Parking"
 		],
-		"Mots clés": [
-			"La Défense",
+		"Tags": [
+			"La-Défense",
 			"Grenier",
 			"Luxe"
 		]
@@ -524,7 +523,7 @@
 		},
 		"note": "4",
 		"location": "Ile de France - Levallois",
-		"équipements": [
+		"equipements": [
 			"Télévision",
 			"Quatre",
 			"Frigo",
@@ -532,9 +531,9 @@
 			"Wifi",
 			"Micro-Ondes"
 		],
-		"Mots clés": [
-			"Vue Parc",
-			"Apt de Charme"
+		"Tags": [
+			"Vue-Parc",
+			"Apt-de-Charme"
 		]
 	},
 	{
@@ -551,13 +550,13 @@
 		},
 		"note": "2",
 		"location": "Ile de France - Paris 20e",
-		"équipements": [
+		"equipements": [
 			"Bouilloire",
 			"Wifi",
 			"Micro-Ondes"
 		],
-		"Mots clés": [
-			"Vue Parc",
+		"Tags": [
+			"Vue-Parc",
 			"Métros"
 		]
 	},
@@ -577,17 +576,17 @@
 		},
 		"note": "4",
 		"location": "Ile de France - Paris 13e",
-		"équipements": [
+		"equipements": [
 			"Équipements de base",
 			"Quatre",
 			"Frigo",
 			"Wifi",
 			"Micro-Ondes"
 		],
-		"Mots clés": [
+		"Tags": [
 			"Studio",
 			"Charmant",
-			"13e"
+			"Arrondissement-13"
 		]
 	},
 	{
@@ -604,17 +603,17 @@
 		},
 		"note": "4",
 		"location": "Ile de France - Paris 13e",
-		"équipements": [
+		"equipements": [
 			"Wifi",
 			"Équipements de base",
 			"Micro-Ondes",
 			"Frigo",
 			"Baigneoire"
 		],
-		"Mots clés": [
+		"Tags": [
 			"Persienne",
 			"Marais",
-			" Rivoli "
+			"Rivoli"
 		]
 	}
 ]

@@ -1,67 +1,43 @@
 import './BannerLogement.css';
-import Left from '../../Assets/images/Left.png'
-import Right from '../../Assets/images/Right.png'
-import ImageTest from '../../Assets/images/Background-test-slider.png';
-//import datasLogements from '../../datasLogements.json';
-//import { useState } from 'react';
+import Left from '../../Assets/images/Left.png';
+import Right from '../../Assets/images/Right.png';
+import { useState } from 'react';
+console.log(Left);
 
-/*function BannerLogement ({photos}) {
-    let [imageDisplay,imageChange] = useState(0);
-    let imageNumber =photos?? [].length;
-    console.log(imageNumber)
+
+
+function BannerLogement ({images}) {
+    let [current, setCurrent] = useState(0);
+    let length = images ?? [].length;
+    console.log (length);
     const nextImage = () => {
-        if (imageDisplay === imageNumber -1) {
-            imageChange(imageNumber=0);
-        }
-        else {
-            imageChange(imageDisplay +1);
-        }
-    }
+            setCurrent(current === length -1 ? 0 : current +1);
+        };
         const previousImage = () => {
-            if (imageDisplay === 0) {
-                imageChange(imageNumber -1) 
+                setCurrent (current === 0 ? length - 1 : current - 1);
+            };
+            if ( !Array.isArray(images) || images.length <= 0) {
+                return null
             }
-            else {
-                imageChange(imageDisplay -1)
-            }
-            return (imageChange);
-        }
+
         return  (
             <div className="slider">
                 <div className='containerArrows'>
-                {
-                    imageNumber > 1 && <img src = { Left } alt="précécent" className="Left" onClick={nextImage}/>
-                }
-                {
-                    imageNumber > 1 && <img src = { Right } alt="suivant" className="right" onClick={previousImage}/>
-                }
+                    <img src = { Left } alt="précécent" className="left" onClick={ nextImage } />
+                    <img src = { Right } alt="suivant" className="right" onClick={ previousImage } />
                 </div>
-                {
-                    datasLogements.photos??[].map ((photos, index) => {
-                        return (
-                            <img key = {index} className= {index === imageDisplay ? 'imgSlider active': 'imgSlider'}src= {photos} alt="imgSlider" />
+                { images.map ((image, index) => {
+                        return ( 
+                            <div key = { index } className = { index === current ? " slides active" : "slides" } >
+                                { index === current && ( <img className = "imgSlider" src= { image } alt="imgSlider" />) }
+                                <div className ="counterslide">
+                                    { index === current && length  > 1 && (<span className="count"> { current+1 }/{ length }</span>) }
+                                </div>
+                            </div>
                         )
-                    })
-                }
-                <div className ="counterslide">
-                    <span className="count">1/4</span>
-                </div>
+                    }
+                )}
             </div>
-    )
-}
-export default BannerLogement;*/
-function BannerLogement () {
-        return (
-        <div className="slider">
-        <div className='containerArrows'>
-        <img src = { Left } alt="précécent" className="left" />
-        <img src = { Right } alt="suivant" className="right" />
-        </div>
-        <img src ={ImageTest} alt="imgslider" className="imgSlider" />
-        <div className ="counterslide">
-            <span className="count">1/4</span>
-        </div>
-    </div>
-    )
+        )
 }
 export default BannerLogement;

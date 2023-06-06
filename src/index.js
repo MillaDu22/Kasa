@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 
 import './Pages/Home/Home.css';
 import './Pages/AProposPage/AProposPage.css';
@@ -24,10 +24,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
         <Routes>
+            <Route path="/Error" element={<Navigate replace to = "error" />} />
             <Route exact path="/" element={<Home />} />
-                <Route path="/AProposPage" element={<AProposPage />} />
-                <Route path="/LogementPage/:id" element={<LogementPage />} />
-                <Route path="/*" element={<Error />} /> 
+            <Route path="/AProposPage" element={<AProposPage />} />
+            <Route path="/LogementPage/:id" element={<LogementPage />} />
+            <Route path="/*" element={<Error />} /> 
         </Routes>
     </BrowserRouter>
 );
