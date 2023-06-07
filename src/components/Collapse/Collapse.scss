@@ -1,6 +1,8 @@
-.wrapInfo{
+.wrapInfo {
+    margin-left:2%;
+    margin-right:2%;
     display:block;
-    width:48%;
+    width:46%;
 }
 .toggleInfo {
     width:100%;
@@ -17,7 +19,7 @@
     transition: all 0.25s ease-out;
 }
 .labelTitleInfo {
-    width:98%;
+    width:96%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,9 +32,6 @@
     position:relative;
     left:2%;
     right:2%;
-}
-.chevron-up:active {
-    transform: rotate(180deg);
 }
 .labelToggleInfo::before {
     content: '';
@@ -70,42 +69,51 @@
     position:relative;
     right: 6.5%;
 }
-
 .toggleInfo:checked + .labelToggleInfo + .textInfo {
     max-height:100vh;
 }
 .toggleInfo:checked + .labelToggleInfo::before{
     transform:rotate (180deg) ;
 }
-.chevronInfo{
+.chevron-up {
+    transform:rotate(180deg);
+}
+.chevron-up, .chevron-down{
     position:relative;
     right: 10px;
     width: 16px;
     height:10px; 
 }
-
-
-@media screen and (max-width:768px) {
-.chevron-up:active {
+.chevronInfo:active {
     transform: rotate(180deg);
 }
-.labelTitleInfo {
-    font-size:13px;
-    line-height:18.5px;
+
+@media screen and (max-width:768px) {
+    .wrapInfo {
+        width:96%;
+        margin-top:30px;
+        margin-left:2%;
+        margin-right:2%;
+        margin-bottom: 0%;
+    }
+    .labelTitleInfo {
+        font-size:13px;
+        line-height:18.5px;
+    }
+    .textInfo {
+        font-size: 12px;
+        line-height: 17.1px;
+    }
+    .pTextInfo {
+        height:20vh;
+    }
+    .listEquipement {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .ulList {
+        width:75%;
+        right:25%;
+    }
 }
-.textInfo {
-    font-size: 12px;
-    line-height: 17.1px;
-}
-.pTextInfo {
-    height:20vh;
-}
-.listEquipement {
-    display: flex;
-    justify-content: flex-end;
-}
-.ulList {
-    width:75%;
-    right:25%;
-}
-}
+

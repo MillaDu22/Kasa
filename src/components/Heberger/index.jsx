@@ -1,13 +1,14 @@
 import React from 'react';
-function Heberger (props) {
+import '../Heberger/heberger.css';
+
+
+function Heberger (heberger) {
     return (
     <>
-    <div className ="heberger">
-        <span className="nameHeberger">{props.name}</span>
-        <span className="photoHeberger">
-            <img src= {props.image} alt="profil" className="photoProfil" />
-        </span>
-    </div>
+    <span className="nameHeberger">{heberger.name}</span>
+    <span className="photoHeberger">
+        <img src= {heberger.image} alt="profil" className="photoProfil" />
+    </span>
     </>
     )
 }

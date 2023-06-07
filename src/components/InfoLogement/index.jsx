@@ -9,15 +9,15 @@ import Collapse from '../../components/Collapse/index.jsx';
 
 const InfoLogement = () => {
     const id = useParams(); 
-    const ficheLogement = datasLogements.find ((dataslogement) => dataslogement.id=== id.id);
-    const TagsLogement = ficheLogement?.Tags.map ((Tags, i) => {
-        return <Tag key = {i} title = {Tags} />
+    const ficheLogement = datasLogements.find ((dataslogement) => dataslogement.id === id.id);
+    const TagsLogement = ficheLogement?.Tags.map ((Tags, index) => {
+        return <Tag key = {index} title = {Tags} />
     })
-    const EquipementsLogement = ficheLogement?.equipements.map((equipement, i) => {
+    const EquipementsLogement = ficheLogement?.equipements.map((equipement, index) => {
         return  (
             <nav className="listEquipement">
-                <ul key = {i}>
-                    <li>{equipement}</li>
+                <ul className="ulList" key = {index}>
+                    <li className="liList">{equipement}</li>
                 </ul>
             </nav>
         )
@@ -37,9 +37,7 @@ const InfoLogement = () => {
                                 <div className ="heberger">
                                     <Heberger name = { ficheLogement?.héberger.nom } image= {ficheLogement?.héberger.image} />
                                 </div>
-                                <div className="containerNotation">
-                                    <Notation score = {ficheLogement.note} />
-                                </div>
+                                <Notation score = {ficheLogement.note} />
                             </div>
                         </div>
                         <div className="rowBoxes2">

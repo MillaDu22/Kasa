@@ -16,22 +16,18 @@ function BannerLogement ({images}) {
         const previousImage = () => {
                 setCurrent (current === 0 ? length - 1 : current - 1);
             };
-            if ( !Array.isArray(images) || images.length <= 0) {
-                return null
-            }
-
         return  (
             <div className="slider">
                 <div className='containerArrows'>
-                    <img src = { Left } alt="précécent" className="left" onClick={ nextImage } />
-                    <img src = { Right } alt="suivant" className="right" onClick={ previousImage } />
+                    <img src = { Left } alt="précécent" className="left" onClick={ previousImage } />
+                    <img src = { Right } alt="suivant" className="right" onClick={ nextImage } />
                 </div>
                 { images.map ((image, index) => {
                         return ( 
                             <div key = { index } className = { index === current ? " slides active" : "slides" } >
                                 { index === current && ( <img className = "imgSlider" src= { image } alt="imgSlider" />) }
-                                <div className ="counterslide">
-                                    { index === current && length  > 1 && (<span className="count"> { current+1 }/{ length }</span>) }
+                                <div className ="counterSlide">
+                                    <span className="count"> { current+1 }/{ index+1 }</span>
                                 </div>
                             </div>
                         )

@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import chevron from "../../Assets/images/chevron.png";
+import '../Collapse/Collapse.scss';
 
 
 const Collapse =({title, content}) => {
@@ -18,11 +19,9 @@ const Collapse =({title, content}) => {
             </label>
             <div className ="textInfo">
                 <div className="textInnerInfo">
-                    {isOpen && <div className="pTextInfo">{content}
+                    {isOpen && <div className="pTextInfo">{content}</div>}
                 </div>
-                }
             </div>
-        </div>
         </div>
     )
 }
