@@ -5,6 +5,7 @@ function BannerAPropos() {
     return (
         <div className='bannerAPropos'>
             <img src={ImgBannerApropos} alt="moutain" className="imgBannerAPropos" />
+            <div className ="backgroundAPropos"></div>
         </div>
     );
 }

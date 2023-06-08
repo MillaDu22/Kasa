@@ -16,8 +16,8 @@ const InfoLogement = () => {
     const EquipementsLogement = ficheLogement?.equipements.map((equipement, index) => {
         return  (
             <nav className="listEquipement">
-                <ul className="ulList" key = {index}>
-                    <li className="liList">{equipement}</li>
+                <ul className="ulList">
+                    <li className="liList" key = {index} title = {equipement}>{equipement}</li>
                 </ul>
             </nav>
         )

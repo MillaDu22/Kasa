@@ -12,10 +12,9 @@ import './components/NavHeader/NavHeader.css';
 import './components/Banner/Banner.css';
 import './components/GalleryCards/GalleryCards.css';
 import './components/Footer/Footer.css';
-import './components/BannerAPropos/BannerAPropos.css';
 
 import Home from './Pages/Home/index.jsx';
-import AProposPage from './Pages/AProposPage/index.jsx'
+import AProposPage from './Pages/AProposPage/index.jsx';
 import LogementPage from './Pages/LogementPage/index.jsx';
 import Error from './Pages/Error/index.jsx';
 import reportWebVitals from './reportWebVitals';
@@ -26,7 +25,7 @@ root.render(
         <Routes>
             <Route path="/Error" element={<Navigate replace to = "error" />} />
             <Route exact path="/" element={<Home />} />
-            <Route path="/AProposPage" element={<AProposPage />} />
+            <Route path="/AProposPage" element={< AProposPage/>} />
             <Route path="/LogementPage/:id" element={<LogementPage />} />
             <Route path="/*" element={<Error />} /> 
         </Routes>
