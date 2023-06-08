@@ -23,10 +23,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
         <Routes>
-            <Route path="/Error" element={<Navigate replace to = "error" />} />
+            <Route path="/error" element={<Navigate replace to = "error" />} />
             <Route exact path="/" element={<Home />} />
-            <Route path="/AProposPage" element={< AProposPage/>} />
-            <Route path="/LogementPage/:id" element={<LogementPage />} />
+            <Route path="/a-propos-page" element={< AProposPage/>} />
+            <Route path="/logement-page/:id" element={<LogementPage />} />
             <Route path="/*" element={<Error />} /> 
         </Routes>
     </BrowserRouter>

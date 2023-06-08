@@ -1,13 +1,17 @@
 import React, {useState} from "react";
 import chevron from "../../Assets/images/chevron.png";
 import '../Collapse/Collapse.scss';
+import uuid from 'react-native-uuid'
 
 
-const Collapse =({title, content}) => {
+const Collapse =({title, content}) => { 
     const [isOpen , setIsOpen] = useState(false);/*état du toggle par défaut*/
     const display = () => {
         setIsOpen(!isOpen);
     };
+    const renderList = (list) => {
+        return list.map((element) => <li key={uuid.v4()}>{element}</li>);
+    }
     return(
         <div className="wrapInfo">
             <input type="checkbox" id="collapse" className="toggleInfo" />
@@ -19,7 +23,8 @@ const Collapse =({title, content}) => {
             </label>
             <div className ="textInfo">
                 <div className="textInnerInfo">
-                    {isOpen && <div className="pTextInfo">{content}</div>}
+                    {isOpen && Array.isArray(content) === false && <div className="pTextInfo">{content}</div>}
+                    {isOpen && Array.isArray(content) === true && <ul className="pTextInfo">{renderList(content)}</ul>}
                 </div>
             </div>
         </div>

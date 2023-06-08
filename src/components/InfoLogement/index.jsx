@@ -42,7 +42,7 @@ const InfoLogement = () => {
                         </div>
                         <div className="rowBoxes2">
                             <Collapse title = "Description" content={ficheLogement?.description} />
-                            <Collapse title = "Equipements" content={EquipementsLogement} />
+                            <Collapse title = "Equipements" content={ficheLogement?.equipements} />
                         </div>
                     </section>
                 </div>
