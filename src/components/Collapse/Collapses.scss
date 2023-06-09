@@ -1,4 +1,4 @@
-.sectionCollapses {
+.collapsesAbout {
     display:flex;
     width:80%;
     position: relative;
@@ -67,9 +67,6 @@
     padding-left:2%;
     padding-right:2%;
     border-radius:0px 0px 5px 5px;
-    max-height:0px;
-    overflow:hidden;
-    transition: max-height .25s ease-in-out;
 }
 .toggle:checked + .labelToggle + .collapseText {
     max-height:100vh;
@@ -81,9 +78,10 @@
     position:relative;
     right: 10px;
     width: 24px;
-    height:13.71px; 
+    height:13.71px;
+    cursor:pointer;
 }
-.chevron-up{
+.chevron-up.true{
     transform: rotate(180deg);
 }
 .chevron-up:active {

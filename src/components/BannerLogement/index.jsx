@@ -2,13 +2,11 @@ import './BannerLogement.css';
 import Left from '../../Assets/images/Left.png';
 import Right from '../../Assets/images/Right.png';
 import { useState } from 'react';
-console.log(Left);
 
 
 function BannerLogement ({images}) {
     let [current, setCurrent] = useState(0);
     let length = images.length;
-    console.log (length);
     const nextImage = () => {
         setCurrent(current === length -1 ? 0 : current +1); 
     };

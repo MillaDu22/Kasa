@@ -10,44 +10,45 @@ import Collapse from '../../components/Collapse/index.jsx';
 const InfoLogement = () => {
     const id = useParams(); 
     const ficheLogement = datasLogements.find ((dataslogement) => dataslogement.id === id.id);
+
     const TagsLogement = ficheLogement?.Tags.map ((Tags, index) => {
         return <Tag key = {index} title = {Tags} />
-    })
+    });
     const EquipementsLogement = ficheLogement?.equipements.map((equipement, index) => {
-        return  (
-            <nav className="listEquipement">
-                <ul className="ulList">
-                    <li className="liList" key = {index} title = {equipement}>{equipement}</li>
-                </ul>
-            </nav>
-        )
-        });
         return (
-            <>
-            {ficheLogement ? (
-                <div className= 'infoLogement'>
-                    <section className="sectionInfo">
-                        <div className="rowBoxes1">
-                            <div className="leftBox">
-                                <h2 className ="title">{ ficheLogement?.title }</h2>
-                                <h3 className = "location">{ ficheLogement?.location }</h3>
-                                <div className=" containerMotsCles">{TagsLogement}</div> 
-                            </div>
-                            <div className="rightBox">
-                                <div className ="heberger">
-                                    <Heberger name = { ficheLogement?.héberger.nom } image= {ficheLogement?.héberger.image} />
-                                </div>
-                                <Notation score = {ficheLogement.note} />
-                            </div>
+            <li className="liList" key ={index}>{equipement} </li>
+        )
+    })
+    return (
+        <>
+        {ficheLogement ? (
+            <div className= 'infoLogement'>
+                <section className="sectionInfo">
+                    <div className="rowBoxes1">
+                        <div className="leftBox">
+                            <h2 className ="title">{ ficheLogement?.title }</h2>
+                            <h3 className = "location">{ ficheLogement?.location }</h3>
+                            <div className=" containerMotsCles">{TagsLogement}</div> 
                         </div>
-                        <div className="rowBoxes2">
-                            <Collapse title = "Description" content={ficheLogement?.description} />
-                            <Collapse title = "Equipements" content={ficheLogement?.equipements} />
+                        <div className="rightBox">
+                            <div className ="heberger">
+                                <Heberger name = { ficheLogement?.héberger.nom } image= {ficheLogement?.héberger.image} />
+                            </div>
+                            <Notation score = {ficheLogement.note} />
                         </div>
-                    </section>
-                </div>
-                ): ( <Navigate replace to ="/Error" /> )
-            }
+                    </div>
+                    <div className="rowBoxes2">
+                        <div className = "boxInfo">
+                        <Collapse title = "Description" content={ficheLogement?.description} />
+                        </div>
+                        <div className = "boxInfo">
+                        <Collapse title = "Equipements" content= { EquipementsLogement } />
+                        </div>
+                    </div>
+                </section>
+            </div>
+            ) : ( <Navigate replace to ="/Error" /> )
+        }
         </>
     );
 };

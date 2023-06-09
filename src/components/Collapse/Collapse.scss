@@ -1,8 +1,8 @@
+
 .wrapInfo {
     margin-left:2%;
     margin-right:2%;
     display:block;
-    width:46%;
 }
 .toggleInfo {
     width:100%;
@@ -50,15 +50,14 @@
     padding-left:2%;
     padding-right:2%;
     border-radius:0px 0px 10px 10px;
-    max-height:0px;
-    overflow:hidden;
-    transition: max-height .25s ease-in-out;
 }
 .textInnerInfo {
     width:100%;
 }
 .pTextInfo {
-    height:50vh;
+    display:flex;
+    align-items: center;
+    max-height:250px;
 }
 .listEquipement {
     width:100%;
@@ -83,6 +82,7 @@
     right: 10px;
     width: 16px;
     height:10px; 
+    cursor:pointer;
 }
 
 @media screen and (max-width:768px) {
@@ -100,9 +100,6 @@
     .textInfo {
         font-size: 12px;
         line-height: 17.1px;
-    }
-    .pTextInfo {
-        height:20vh;
     }
     .listEquipement {
         display: flex;

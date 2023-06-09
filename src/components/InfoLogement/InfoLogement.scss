@@ -46,6 +46,12 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.boxInfo {
+    width:46%;
+    margin-left:2%;
+    margin-right:2%;
+    display:block;
+}
 @media screen and (max-width:768px) {
     .sectionInfo {
         width:100%;
@@ -67,6 +73,11 @@
         flex-direction: column;
         left:0%;
         margin-top:0%;
+    }
+    .boxInfo {
+        width:100%;
+        margin-left:0;
+        margin-right: 0;
     }
     .leftBox {
         width:100%;

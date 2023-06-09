@@ -5,3 +5,9 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.box {
+    position: relative;
+    width:80%;
+    left:10%;
+    right:10%;
+}
