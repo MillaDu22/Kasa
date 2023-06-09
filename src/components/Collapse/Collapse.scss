@@ -56,20 +56,12 @@
 }
 .pTextInfo {
     display:flex;
+    flex-direction: column;
     align-items: center;
     max-height:250px;
 }
-.listEquipement {
-    width:100%;
-}
-.ulList {
-    width:95%;
-    list-style: none;
-    position:relative;
-    right: 6.5%;
-}
 .toggleInfo:checked + .labelToggleInfo + .textInfo {
-    max-height:100vh;
+    max-height:250px;
 }
 .toggleInfo:checked + .labelToggleInfo::before{
     transform:rotate (0deg) ;
@@ -84,6 +76,7 @@
     height:10px; 
     cursor:pointer;
 }
+
 
 @media screen and (max-width:768px) {
     .wrapInfo {

@@ -1,3 +1,4 @@
+
 .sectionInfo {
     display:flex;
     flex-direction: column;
@@ -46,11 +47,33 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
 .boxInfo {
+    height:100%;
     width:46%;
     margin-left:2%;
     margin-right:2%;
-    display:block;
+}
+.nav {
+    max-height: 25px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+}
+.ulList {
+    width:80%;
+    list-style: none;
+    position:relative;
+    bottom:20px;
+    right: 0%;
+}
+.liList {
+    width:80%;
+    position:relative;
+    margin-top:0px;
+    right:9%;
+    height:25px;
 }
 @media screen and (max-width:768px) {
     .sectionInfo {
@@ -88,6 +111,9 @@
         position:relative;
         top:0%;
         justify-content: space-between;
+    }
+    .ulList {
+        bottom:13px;
     }
 }
 

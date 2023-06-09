@@ -21,6 +21,7 @@ const Collapse =({title, content}) => {
             <div className ="textInfo">
                 <div className="textInnerInfo">
                     {isOpen &&  Array.isArray(content) === false && <div className="pTextInfo">{content}</div>}
+                    {isOpen &&  Array.isArray(content) === true && <div className="pTextInfo">{content}</div>}
                 </div>
             </div>
         </div>

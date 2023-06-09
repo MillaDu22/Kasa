@@ -14,11 +14,13 @@ const InfoLogement = () => {
     const TagsLogement = ficheLogement?.Tags.map ((Tags, index) => {
         return <Tag key = {index} title = {Tags} />
     });
-    const EquipementsLogement = ficheLogement?.equipements.map((equipement, index) => {
-        return (
-            <li className="liList" key ={index}>{equipement} </li>
-        )
+    const equipementsLogement = ficheLogement?.equipements.map((equipement, index) => {
+        console.log(equipement)
+        return <div className="nav"><ul className = "ulList"  key = {index}>
+                    <li className="liList" key= {index}>{equipement}</li>
+                </ul></div>
     })
+    console.log (equipementsLogement)
     return (
         <>
         {ficheLogement ? (
@@ -42,7 +44,7 @@ const InfoLogement = () => {
                         <Collapse title = "Description" content={ficheLogement?.description} />
                         </div>
                         <div className = "boxInfo">
-                        <Collapse title = "Equipements" content= { EquipementsLogement } />
+                            <Collapse title = "Equipements" content={equipementsLogement}/>
                         </div>
                     </div>
                 </section>
