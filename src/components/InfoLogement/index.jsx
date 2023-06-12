@@ -15,14 +15,12 @@ const InfoLogement = () => {
         return <Tag key = {index} title = {Tags} />
     });
     const equipementsLogement = ficheLogement?.equipements.map((equipement, index) => {
-        console.log(equipement)
         return <div className="nav" key= {index}>
                     <ul className = "ulList"  >
                         <li className="liList">{equipement}</li>
                     </ul>
                 </div>
     })
-    console.log (equipementsLogement)
     return (
         <>
         {ficheLogement ? (

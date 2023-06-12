@@ -7,17 +7,20 @@ import { useState } from 'react';
 function BannerLogement ({images}) {
     let [current, setCurrent] = useState(0);
     let length = images.length;
+
     const nextImage = () => {
         setCurrent(current === length -1 ? 0 : current +1); 
     };
+
     const previousImage = () => {
         setCurrent (current === 0 ? length - 1 : current - 1);
     };
+
     return  (
         <div className="slider">
             <div className='containerArrows'>
-                <img src = { Left } alt="précécent" className="left" onClick={ previousImage } />
-                <img src = { Right } alt="suivant" className="right" onClick={ nextImage } />
+                <img src = { Left } alt="précécent" className="left" onClick = { previousImage } />
+                <img src = { Right } alt="suivant" className="right" onClick = { nextImage } />
             </div>
             { images.map ((image, index) => {
                 return ( 
@@ -33,5 +36,7 @@ function BannerLogement ({images}) {
         </div>     
     )
 }
+
+
 
 export default BannerLogement;
