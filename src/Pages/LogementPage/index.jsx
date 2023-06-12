@@ -4,7 +4,7 @@ import NavHeader from '../../components/NavHeader/index.jsx';
 import BannerLogement from '../../components/BannerLogement/index.jsx';
 import InfoLogement from '../../components/InfoLogement/index.jsx';
 import Footer from '../../components/Footer/index.jsx';
-import '../LogementPage/LogementPage.css';
+import './LogementPage.css';
 import  datasLogements from '../../datasLogements.json';
 import {useParams} from "react-router-dom";
 

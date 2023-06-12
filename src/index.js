@@ -3,31 +3,31 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 
-import './Pages/Home/Home.css';
-import './Pages/AProposPage/AProposPage.css';
-import './Pages/LogementPage/LogementPage.css';
-import './Pages/Error/Error.css';
+import './pages/Home/Home.css';
+import './pages/AProposPage/AProposPage.css';
+import './pages/LogementPage/LogementPage.css';
+import './pages/Error/Error.css';
 import './components/Header/Header.css';
 import './components/NavHeader/NavHeader.css';
 import './components/Banner/Banner.css';
 import './components/GalleryCards/GalleryCards.css';
 import './components/Footer/Footer.css';
 
-import Home from './Pages/Home/index.jsx';
-import AProposPage from './Pages/AProposPage/index.jsx';
-import LogementPage from './Pages/LogementPage/index.jsx';
-import Error from './Pages/Error/index.jsx';
+import Home from './pages/Home/index.jsx';
+import AProposPage from './pages/AProposPage/index.jsx';
+import LogementPage from './pages/LogementPage/index.jsx';
+import Error from './pages/Error/index.jsx';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
         <Routes>
-            <Route path="/error" element={<Navigate replace to = "Error" />} />
-            <Route exact path="/" element={<Home />} />
-            <Route path="/a-propos-page" element={< AProposPage/>} />
+            <Route path="kasa/src/pages/error" element={<Navigate replace to = "Error" />} />
+            <Route exact path="kasa/src/pages/home" element={<Home />} />
+            <Route path="kasa/src/pages/a-propos-page" element={< AProposPage/>} />
             <Route path="/logement-page/:id" element={<LogementPage />} />
-            <Route path="/*" element={<Error />} /> 
+            <Route path="kasa/*" element={<Error />} /> 
         </Routes>
     </BrowserRouter>
 );
