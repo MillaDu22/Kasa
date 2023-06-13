@@ -6,6 +6,7 @@ import Heberger from '../Heberger/index.jsx';
 import Notation from '../../components/Notation/index.jsx';
 import Tag from '../../components/Tags/index.jsx';
 import Collapse from '../../components/Collapse/index.jsx';
+import BannerLogement from '../BannerLogement';
 
 const InfoLogement = () => {
     const id = useParams(); 
@@ -25,6 +26,7 @@ const InfoLogement = () => {
         <>
         {ficheLogement ? (
             <div className= 'infoLogement'>
+                <BannerLogement images = {ficheLogement?.photos}/>
                 <section className="sectionInfo">
                     <div className="rowBoxes1">
                         <div className="leftBox">
@@ -49,7 +51,7 @@ const InfoLogement = () => {
                     </div>
                 </section>
             </div>
-            ) : ( <Navigate replace to ="/Error" /> )
+            ) : <Navigate replace to = "/src/components/SectionError" />
         }
         </>
     );

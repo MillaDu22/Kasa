@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@400;500 & display=swap");
 .sectionInfo {
   display: flex;
   flex-direction: column;
@@ -5,10 +6,11 @@
 }
 
 .rowBoxes1 {
-  width: 90%;
+  width: 80%;
   position: relative;
   top: 30px;
-  left: 5%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -39,168 +41,91 @@
   color: #FF6060;
 }
 
-.containerMotsCles {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 50%;
-  position: relative;
-}
-
-.motCle {
-  background: #FF6060;
-  border-radius: 10px;
-  color: white;
-  width: 33%;
-  text-align: center;
-  font-family: "Montserrat";
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 500;
-}
-
 .rightBox {
   width: 45%;
   display: flex;
   flex-direction: column;
 }
 
-.heberger {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  position: relative;
-  top: 30px;
-}
-
-.nameHeberger {
-  width: 40%;
-  text-align: right;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 20px;
-  color: #FF6060;
-  position: relative;
-  right: 2%;
-}
-
-.photoHeberger {
-  width: 25%;
-  border-radius: 50%;
-}
-
-.photoProfil {
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.containerNotation {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  top: 60px;
-}
-
 .rowBoxes2 {
-  width: 90%;
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   margin-top: 10%;
-  left: 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.descriptionSelect {
-  width: 47%;
+.boxInfo {
+  height: 100%;
+  width: 48%;
+}
+
+.nav {
+  max-height: 25px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.descriptionOption1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  padding-left: 20px;
-  width: 92.5%;
-  background: #FF6060;
-  color: white;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 25.6px;
-  border-radius: 10px;
-}
-
-.descriptionOption2 {
-  background: #F7F7F7;
-  position: relative;
-  padding-left: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 92.5%;
   height: 100%;
-  color: #FF6060;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25.6px;
-  border-radius: 0px 0px 10px 10px;
-}
-
-.equipementSelect {
-  width: 47%;
-  display: flex;
-  flex-direction: column;
-}
-
-.equipementOption1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  padding-left: 20px;
-  width: 92.5%;
-  background: #FF6060;
-  color: white;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 25.6px;
-  border-radius: 10px;
-}
-
-.chevronCollapse {
-  position: relative;
-  right: 5%;
-  width: 4%;
-}
-
-.equipementOption2 {
-  background: #F7F7F7;
-  width: 92.5%;
-  height: 100%;
-  position: relative;
-  padding-left: 20px;
-  color: #FF6060;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25.6px;
-  border-radius: 0px 0px 10px 10px;
 }
 
 .ulList {
-  width: 100%;
+  width: 80%;
   list-style: none;
   position: relative;
-  right: 7.5%;
+  bottom: 20px;
+  right: 0%;
+}
+
+.liList {
+  width: 80%;
+  position: relative;
+  margin-top: 0px;
+  right: 9%;
+  height: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .sectionInfo {
+    width: 100%;
+  }
+  .rowBoxes1 {
+    width: 96%;
+    top: 15px;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 18px;
+    line-height: 25.67px;
+  }
+  .location {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .rowBoxes2 {
+    width: 100%;
+    flex-direction: column;
+    left: 0%;
+    margin-top: 0%;
+  }
+  .boxInfo {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .leftBox {
+    width: 100%;
+  }
+  .rightBox {
+    width: 100%;
+    flex-direction: row-reverse;
+    position: relative;
+    top: 0%;
+    justify-content: space-between;
+  }
+  .ulList {
+    bottom: 13px;
+  }
 }/*# sourceMappingURL=InfoLogement.css.map */

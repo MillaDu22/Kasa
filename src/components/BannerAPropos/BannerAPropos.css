@@ -5,7 +5,7 @@
     margin-right:auto;
     margin-top:63px;
     border-radius: 25px;
-    width:96%;
+    width:80%;
     height:223px;
 }
 .imgBannerAPropos {
@@ -25,4 +25,9 @@
     filter:opacity(30%);
     border-radius: 25px;
     z-index:2;
+}
+@media screen and (max-width:768px) {
+    .bannerAPropos {
+        width:96%;
+    }
 }

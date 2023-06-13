@@ -4,7 +4,7 @@
     margin-left:auto;
     margin-right:auto;
     margin-top: 50px; 
-    width: 96%;
+    width: 80%;
     height:415px;
 }
 .slides {
@@ -67,6 +67,7 @@
 }
 @media screen and (max-width:768px) {
     .slider {
+        width:96%;
         height:255px;
     }
     .imgSlider {

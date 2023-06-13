@@ -1,6 +1,7 @@
 import './GalleryCards.css';
 import datasLogements from '../../datasLogements.json';
-import Card from '../card/index.jsx';
+import Card from "../Card/index.jsx";
+
 
 
 

@@ -3,7 +3,7 @@
   width:14.28%;
   height:62px;
   position:relative;
-  left: 2%;
+  left: 10%;
   margin-top:2%;
 }
 .logoHeader {
@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 768px) {
   .logoTitle {
+    left:2%;
     width:38.6%;
     height:43px;
   }

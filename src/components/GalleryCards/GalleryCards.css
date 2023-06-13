@@ -2,53 +2,25 @@
     position: relative;
     margin-top:43px;
     margin-bottom:13px;
-    margin-left:2%;
-    margin-right:2%;
+    margin-left:auto;
+    margin-right:auto;
     padding-top: 56px;
-    padding-bottom: 50px;
-    padding-left:2%;
-    padding-right:2%;
+    padding-bottom: 0%;
+    padding-left:4.5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 92%;
+    width: 76%;
     background-color:#E5E5E5;
     border-radius:25px;
 }
-.coverCard {
-    display:flex;
-    flex-direction: column;
-    justify-content:flex-end;
-    Width:30%;
-    height:340px;
-    margin-bottom:20px;
-    border-radius: 10px;
-    background:linear-gradient(180deg, rgba(252, 0, 0, 0.603)100%, rgba(28, 28, 28, 0.948)90%);
-}
-.titleCard {
-    padding-left:20px;
-    font-family:'Monserrat';
-    font-weight:500;
-    font-size:18px;
-    width:40%;
-    color:white;
-}
+
 @media screen and (max-width:768px) {
     .backCards {
         width:96%;
         flex-direction:column;
         padding:0;
         background: white;
-    }
-    .coverCard {
-        width:100%;
-        height: 255px;
-        border-radius: 10px;
-        position: relative;
-        margin-bottom:10%;
-    }
-    .titleCard {
-        width:20%;
     }
 }

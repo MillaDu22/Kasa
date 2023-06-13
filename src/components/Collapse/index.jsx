@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import chevron from "../../Assets/images/chevron.png";
 import '../Collapse/Collapse.scss';
+import '../Collapse/Collapses.scss';
 
 
 

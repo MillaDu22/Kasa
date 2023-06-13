@@ -12,7 +12,7 @@ function SectionError () {
                 <p className= "pOups">Oups! La page que vous demandez n'existe pas.</p>
             </div>
             <div className ="errorReturnHome">
-            <Link className="linkReturnHome" to="/" exact="true">Retourner sur la page d'accueil</Link>
+            <Link className="linkReturnHome" to="kasa/src/pages/home" exact="true">Retourner sur la page d'accueil</Link>
             </div>
         </section>
     );

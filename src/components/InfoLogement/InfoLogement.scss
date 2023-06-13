@@ -5,10 +5,11 @@
     padding-bottom:60px;
 }
 .rowBoxes1 {
-    width:96%;
+    width:80%;
     position:relative;
     top:30px;
-    left:2%;
+    margin-left:auto;
+    margin-right:auto;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,6 +42,9 @@
     flex-direction: column;
 }
 .rowBoxes2 {
+    width:82%;
+    margin-left:auto;
+    margin-right:auto;
     position: relative;
     margin-top:10%;
     display:flex;
@@ -50,9 +54,7 @@
 
 .boxInfo {
     height:100%;
-    width:46%;
-    margin-left:2%;
-    margin-right:2%;
+    width:48%;
 }
 .nav {
     max-height: 25px;
@@ -80,6 +82,7 @@
         width:100%;
     }
     .rowBoxes1 {
+        width:96%;
         top:15px;
         flex-direction: column;
     }

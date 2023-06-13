@@ -1,11 +1,10 @@
 .collapsesAbout {
     display:flex;
-    width:80%;
+    width:75%;
     position: relative;
     margin-top: 19px;
-    left:10%;
-    right:10%;
-    top:22px;
+    margin-left:15%;
+    right: 10%;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -89,10 +88,10 @@
     width:24px;
 }
 @media screen and (max-width:768px) {
-    .sectionCollapses {
-        width:96%;
-        left:2%;
-        right:2%;
+    .collapsesAbout {
+        width:98%;
+        margin-left:2%;
+        right:1%;
     }
     .labelToggle {
         width:100%;
