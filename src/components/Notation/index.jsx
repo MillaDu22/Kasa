@@ -8,8 +8,8 @@ function Notation (heberger) {
     const notes = [1, 2, 3, 4, 5];
     return (
         <div className="containerNotation">{notes.map((note) => score >= note ? (
-            <img key= {note.toString()} className="star" src= {starFull} alt= "starLight" />) : (
-            <img key= {note.toString()} className="star" src= {starLight} alt="starFull" />)  
+            <img key= {note.toString()} className="star" src= {starFull} alt= "starFull" />) : (
+            <img key= {note.toString()} className="star" src= {starLight} alt="starLight" />)  
         )}
     </div>
     )
