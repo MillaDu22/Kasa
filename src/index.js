@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter, Routes, Route, Navigate} from 'react-router-dom';
+import { HashRouter, Router, Routes, Route, Navigate} from 'react-router-dom';
 
 import Home from './pages/Home/index.jsx';
 import AProposPage from './pages/AProposPage/index.jsx';
@@ -11,6 +11,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <HashRouter>
+        <Router>
         <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/a-propos-page" element={< AProposPage/>} />
@@ -18,6 +19,7 @@ root.render(
             <Route path="*" element={<Error />} /> 
             <Route path= "/" element={<Navigate replace to = "/" />} />
         </Routes>
+        </Router>
     </HashRouter>
 );
 reportWebVitals();
