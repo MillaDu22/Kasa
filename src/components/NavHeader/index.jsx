@@ -4,8 +4,8 @@ import './NavHeader.css';
 function NavHeader() {
     return (
     <nav className ="navHead">
-        <Link className="linkAccueil" to="/kasa/src/pages/home" exact="true">Accueil</Link>
-        <Link className= "linkAPropos" to="/kasa/src/pages/a-propos-page">A propos</Link>
+        <Link className="linkAccueil" to="/" exact="true">Accueil</Link>
+        <Link className= "linkAPropos" to="/a-propos-page">A propos</Link>
     </nav>
     )
 }
