@@ -11,7 +11,6 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <HashRouter>
-
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/a-propos-page" element={< AProposPage/>} />
@@ -19,7 +18,6 @@ root.render(
                 <Route path="*" element={<Error />} /> 
                 <Route path= "/" element={<Navigate replace to = "/" />} />
             </Routes>
-
     </HashRouter>
 );
 reportWebVitals();
