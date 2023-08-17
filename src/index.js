@@ -12,11 +12,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <HashRouter>
         <Routes>
-            <Route exact path="/home" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/a-propos-page" element={< AProposPage/>} />
             <Route path="/logement-page/:id" element={<LogementPage />} />
             <Route path="*" element={<Error />} /> 
-            <Route path= "/" element={<Navigate replace to = "/home" />} />
+            <Route path= "/" element={<Navigate replace to = "/" />} />
         </Routes>
     </HashRouter>
 );
