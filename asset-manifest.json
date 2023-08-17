@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Kasa/static/css/main.490e6935.css",
+    "main.js": "/Kasa/static/js/main.27d86349.js",
+    "static/js/787.0ce615c0.chunk.js": "/Kasa/static/js/787.0ce615c0.chunk.js",
+    "static/media/imgBannerAPropos.png": "/Kasa/static/media/imgBannerAPropos.99f7812e0a8dc0973adc.png",
+    "static/media/cestpaslaplayadelacostadelsol.png": "/Kasa/static/media/cestpaslaplayadelacostadelsol.0b3373d85749b68829c5.png",
+    "index.html": "/Kasa/index.html",
+    "main.490e6935.css.map": "/Kasa/static/css/main.490e6935.css.map",
+    "main.27d86349.js.map": "/Kasa/static/js/main.27d86349.js.map",
+    "787.0ce615c0.chunk.js.map": "/Kasa/static/js/787.0ce615c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.490e6935.css",
+    "static/js/main.27d86349.js"
+  ]
+}
